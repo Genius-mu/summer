@@ -96,7 +96,7 @@ const Header = () => {
       {/* MOBILE MENU DROPDOWN */}
       <div
         className={`md:hidden absolute top-[4em] left-0 w-full bg-black/90 backdrop-blur-md transition-all duration-300 overflow-hidden
-          ${openMenu ? "h-[220px] opacity-100" : "h-0 opacity-0"}
+          ${openMenu ? "h-[350px] opacity-100" : "h-0 opacity-0"}
         `}
       >
         <div className="flex flex-col gap-4 p-5 text-white text-lg">
@@ -108,7 +108,7 @@ const Header = () => {
           <Link
             to="https://github.com/Genius-mu"
             target="_blank"
-            className="flex items-center gap-2 mt-2"
+            className="flex items-center gap-2 mt-2 w-full justify-center bg-blue-700 py-3"
           >
             <Github />
             Github
